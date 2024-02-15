@@ -1,0 +1,29 @@
+.cartpage .cart-items-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartpage .cart-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cartpage .total-amount {
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 16px;
+  width: 450px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.cartpage .total-amount div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartpage .total-amount .total {
+  margin-top: 8px;
+  font-weight: bold;
+}

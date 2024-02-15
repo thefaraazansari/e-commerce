@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 220px;
+    margin: 8px;
+}
+
+.card .product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .link {
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 8px;
+}
+
+.card .product-image {
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+}
+
+.card .product-title {
+    font-size: 16px;
+    display: block;
+}
+
+.card .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.card .product-rating {
+    font-size: 16px;
+    color: grey;
+}

@@ -1,0 +1,12 @@
+main {
+    padding-top: 60px;
+}
+
+.heading {
+    margin-left: 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
